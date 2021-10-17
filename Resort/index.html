@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css" class="css">
+    <link rel="stylesheet" href="./assets/css/base.css" class="css">
+    <title>Resort Airbnb</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <div class="header" style="background-image: url(https://a0.muscache.com/im/pictures/ddc7f01f-3fb3-483c-87e6-701dad52c930.jpg);">
+        <div class="notification">
+            <a href="#" class="notification__link">
+                Nhận thông tin mới nhất về biện pháp ứng phó COVID-19 của chúng tôi
+            </a>
+        </div>
+        
+        <div class="nav">
+            <div class="nav__logo">
+                <a href="#" class="nav__logo-link">
+                    <svg width="102" height="32" fill="currentcolor" style="display:block">
+                        <path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"></path>
+                    </svg>
+                </a>
+                <!-- <img src="./assets/img/logo.PNG" alt="" class="nav__logo-img"> -->
+            </div>
+            <div class="nav__menu">
+                <ul class="nav__menu-list">
+                    <li class="nav__menu-list-item-first">Nơi ở</li>
+                    <li class="nav__menu-list-item">Trải nghiệm</li>
+                    <li class="nav__menu-list-item">Trải nghiệm trực tuyến</li>
+                </ul>
+            </div>
+            <div class="nav__menu-personal">
+                <ul class="nav__menu-personal-list">
+                    <li class="nav__menu-personal-item-owner">
+                        <a href="#" class="nav__menu-personal-item-link">
+                            <span class="nav__menu-personal-item-label">
+                                Trở thành chủ nhà
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav__menu-personal-item-earth">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 16px; width: 16px; fill: currentcolor;">
+                            <path d="m8.002.25a7.77 7.77 0 0 1 7.748 7.776 7.75 7.75 0 0 1 -7.521 7.72l-.246.004a7.75 7.75 0 0 1 -7.73-7.513l-.003-.245a7.75 7.75 0 0 1 7.752-7.742zm1.949 8.5h-3.903c.155 2.897 1.176 5.343 1.886 5.493l.068.007c.68-.002 1.72-2.365 1.932-5.23zm4.255 0h-2.752c-.091 1.96-.53 3.783-1.188 5.076a6.257 6.257 0 0 0 3.905-4.829zm-9.661 0h-2.75a6.257 6.257 0 0 0 3.934 5.075c-.615-1.208-1.036-2.875-1.162-4.686l-.022-.39zm1.188-6.576-.115.046a6.257 6.257 0 0 0 -3.823 5.03h2.75c.085-1.83.471-3.54 1.059-4.81zm2.262-.424c-.702.002-1.784 2.512-1.947 5.5h3.904c-.156-2.903-1.178-5.343-1.892-5.494l-.065-.007zm2.28.432.023.05c.643 1.288 1.069 3.084 1.157 5.018h2.748a6.275 6.275 0 0 0 -3.929-5.068z"></path>
+                        </svg>
+                    </li>
+                    <li class="nav__menu-personal-item-menu">
+                        <div class="nav__menu-personal-item-icon">
+                            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
+                                <g fill="none" fill-rule="nonzero">
+                                    <path d="m2 16h28"></path>
+                                    <path d="m2 24h28"></path>
+                                    <path d="m2 8h28"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="nav__menu-personal-item-logo">
+                            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: currentcolor;">
+                                <path d="m16 .7c-8.437 0-15.3 6.863-15.3 15.3s6.863 15.3 15.3 15.3 15.3-6.863 15.3-15.3-6.863-15.3-15.3-15.3zm0 28c-4.021 0-7.605-1.884-9.933-4.81a12.425 12.425 0 0 1 6.451-4.4 6.507 6.507 0 0 1 -3.018-5.49c0-3.584 2.916-6.5 6.5-6.5s6.5 2.916 6.5 6.5a6.513 6.513 0 0 1 -3.019 5.491 12.42 12.42 0 0 1 6.452 4.4c-2.328 2.925-5.912 4.809-9.933 4.809z"></path>
+                            </svg>
+                        </div>
+                        <ul class="submenu-personal">
+                            <li class="submenu-personal-item">Đăng ký</li>
+                            <li class="submenu-personal-item">Đăng nhập</li>
+                            <div class="submenu-personal-border"></div>
+                            <li class="submenu-personal-item">Cho thuê nhà</li>
+                            <li class="submenu-personal-item">Tổ chức trải nghiệm</li>
+                            <li class="submenu-personal-item">Trợ giúp</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="search">
+            <div class="search__place search__hover">
+                <p class="search__heading">
+                    Địa điểm
+                </p>
+                <p class="search__subheading">
+                    Bạn sắp đi đâu?
+                </p>
+            </div>
+            <div class="search__room-take search__border search__hover">
+                <p class="search__heading">
+                    Nhận phòng
+                </p>
+                <p class="search__subheading">
+                    Thêm ngày
+                </p>
+            </div>
+            <div class="search__room-check search__border search__hover">
+                <p class="search__heading">
+                    Trả phòng
+                </p>
+                <p class="search__subheading">
+                    Thêm ngày
+                </p>
+            </div>
+            <div class="search__passengers search__border search__hover">
+                <p class="search__heading">
+                    Khách
+                </p>
+                <p class="search__subheading">
+                    Thêm khách
+                </p>
+            </div>
+            <div class="search__search">
+                <svg class="search__search-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display:block;fill:none;height:16px;width:16px;stroke:currentColor;stroke-width:4;overflow:visible" aria-hidden="true" role="presentation" focusable="false">
+                    <g fill="none">
+                        <path d="m13 24c6.0751322 0 11-4.9248678 11-11 0-6.07513225-4.9248678-11-11-11-6.07513225 0-11 4.92486775-11 11 0 6.0751322 4.92486775 11 11 11zm8-3 9 9"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <div class="intro-update">
+            <div class="intro-update__info">
+                <span class="intro-update__info-noti">
+                    Thiên nhiên tươi đẹp
+                </span>
+            </div>
+            <div class="intro-update__subinfo">
+                <span class="intro-update__info-subnoti">
+                    Danh sách Yêu thích do Airbnb tuyển chọn
+                </span>
+            </div>
+            <div class="intro-update__footer">
+                <span class="intro-update__footer-text">
+                    Lấy cảm hứng
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start Container -->
+    <div class="container">
+        <!-- Start Discover -->
+        <div class="container__discover">
+            <span class="container__discover-text">
+                Khám phá những điểm đến gần đây
+            </span>
+            <div class="grid__row">
+                <div class="grid__column-12-padding-top">
+                    <div class="grid__row">
+                        <div class="grid__column-3">
+                            <img src="./assets/img/danang.jpg" alt="" class="container__discover-item-img">
+                            <div class="container__discover-item-details">
+                                <p class="container__discover-item-name">
+                                    Đà Nẵng
+                                </p>
+                                <p class="container__discover-item-time-drive">
+                                    15 phút lái xe
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid__column-3">
+                            <img src="./assets/img/nhatrang.jpg" alt="" class="container__discover-item-img">
+                            <div class="container__discover-item-details">
+                                <p class="container__discover-item-name">
+                                    Nha Trang
+                                </p>
+                                <p class="container__discover-item-time-drive">
+                                    7 giờ lái xe
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid__column-3">
+                            <img src="./assets/img/hoian.jpg" alt="" class="container__discover-item-img">
+                            <div class="container__discover-item-details">
+                                <p class="container__discover-item-name">
+                                    Thành phố Hội An
+                                </p>
+                                <p class="container__discover-item-time-drive">
+                                    45 phút lái xe
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid__column-3">
+                            <img src="./assets/img/tuyhoa.jpg" alt="" class="container__discover-item-img">
+                            <div class="container__discover-item-details">
+                                <p class="container__discover-item-name">
+                                    Thành phố Tuy Hòa
+                                </p>
+                                <p class="container__discover-item-time-drive">
+                                    5,5 giờ lái xe
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid__column-3">
+                            <img src="./assets/img/donghoi.jpg" alt="" class="container__discover-item-img">
+                            <div class="container__discover-item-details">
+                                <p class="container__discover-item-name">
+                                    Thành phố Đồng Hới
+                                </p>
+                                <p class="container__discover-item-time-drive">
+                                    3,5 giờ lái xe
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid__column-3">
+                            <img src="./assets/img/buonmathuot.jpg" alt="" class="container__discover-item-img">
+                            <div class="container__discover-item-details">
+                                <p class="container__discover-item-name">
+                                    Thành phố Buôn Ma Thuột
+                                </p>
+                                <p class="container__discover-item-time-drive">
+                                    8,5 giờ lái xe
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid__column-3">
+                            <img src="./assets/img/pleiku.jpg" alt="" class="container__discover-item-img">
+                            <div class="container__discover-item-details">
+                                <p class="container__discover-item-name">
+                                    Thành phố Pleiku
+                                </p>
+                                <p class="container__discover-item-time-drive">
+                                    5,5 giờ lái xe
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid__column-3">
+                            <img src="./assets/img/samson.jpg" alt="" class="container__discover-item-img">
+                            <div class="container__discover-item-details">
+                                <p class="container__discover-item-name">
+                                    Thị xã Sầm Sơn
+                                </p>
+                                <p class="container__discover-item-time-drive">
+                                    8 giờ lái xe
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Discover -->
+
+        <!-- Start Place -->
+        <div class="container__place">
+            <span class="container__place-text">
+                Ở bất cứ đâu
+            </span>
+            <div class="grid__row">
+                <div class="grid__column-12-padding-top">
+                    <div class="grid__row">
+                        <div class="grid__column-3-no-flex">
+                            <img src="./assets/img/place1.jpg" alt="" class="container__place-item-img">
+                            <span class="container__place-item-text">
+                                Nơi nghỉ dưỡng ngoài trời
+                            </span>
+                        </div>
+                        <div class="grid__column-3-no-flex">
+                            <img src="./assets/img/place2.jpg" alt="" class="container__place-item-img">
+                            <span class="container__place-item-text">
+                                Chỗ ở độc đáo
+                            </span>
+                        </div>
+                        <div class="grid__column-3-no-flex">
+                            <img src="./assets/img/place3.jpg" alt="" class="container__place-item-img">
+                            <span class="container__place-item-text">
+                                Toàn bộ nhà
+                            </span>
+                        </div>
+                        <div class="grid__column-3-no-flex">
+                            <img src="./assets/img/place4.jpg" alt="" class="container__place-item-img">
+                            <span class="container__place-item-text">
+                                Cho phép mang theo thú cưng
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Become Owner -->
+        <div class="container__become-owner" style="background-image: url(./assets/img/owner.jpg);">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-12-padding-top">
+                        <div class="grid__column-6">
+                            <div class="container__become-owner-content">
+                                <div class="container__become-owner-header">
+                                    <span class="container__become-owner-heading">
+                                        Trở thành chủ nhà
+                                    </span>
+                                </div>
+                                <div class="container__become-owner-subheading">
+                                    Kiếm thêm thu nhập và khám phá các cơ hội mới bằng cách chia sẻ nở ở của bạn.
+                                </div>
+                                <div class="container__become-owner-more">
+                                    Tìm hiểu thêm
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__exploring">
+            <div class="exploring__header">
+                <div class="exploring__heading">
+                    <span class="exploring__heading-text">
+                        Khám phá Trải nghiệm
+                    </span>
+                </div>
+                <div class="exploring__sub-heading">
+                    <span class="exploring__sub-heading-text">
+                        Các hoạt động độc đáo với các chuyên gia địa phương - tham gia trực tiếp hoặc trực tuyến.
+                    </span>
+                </div>
+
+            </div>
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-12-padding-5">
+                            <div class="grid__column-4">
+                                <div class="container__exploring-item">
+                                    <img src="./assets/img/exploring1.jpg" alt="" class="container__exploring-item-img">
+                                    <p class="container__exploring-item-heading">
+                                        Bộ sưu tập nổi bật: Phiêu du
+                                    </p>
+                                    <p class="container__exploring-item-subheading">
+                                        Du lịch tại nhà với Trải nghiệm trực tuyến.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="grid__column-4">
+                                <div class="container__exploring-item">
+                                    <img src="./assets/img/exploring2.jpg" alt="" class="container__exploring-item-img">
+                                    <p class="container__exploring-item-heading">
+                                        Trải nghiệm trực tuyến
+                                    </p>
+                                    <p class="container__exploring-item-subheading">
+                                        Các hoạt động tương tác, truyền trực tiếp dưới sự dẫn dắt của Người tổ chức.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="grid__column-4">
+                                <div class="container__exploring-item">
+                                    <img src="./assets/img/exploring3.jpg" alt="" class="container__exploring-item-img">
+                                    <p class="container__exploring-item-heading">
+                                        Trải nghiệm
+                                    </p>
+                                    <p class="container__exploring-item-subheading">
+                                        Những điều nên trải nghiệm của địa phương, dù bạn đang ở bất cứ đâu.
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__update">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-12-padding-10 container__update-bg" style="background-image: url(./assets/img/lastbg.jpg);">
+                        <div class="grid__column-4-flex" id="container__update-content">
+                            <div class="container__update-content">
+                                <img src="./assets/img/airbnb2021.jpg" alt="" class="container__update-content-logo">
+                                <div class="container__update-content-text">
+                                    <span id="container__update-content-text">
+                                        Giới thiệu hơn 100 mục nâng cấp
+                                    </span>
+                                </div>
+                                <div class="container__update-content-more">
+                                    <span id="container__update-content-more">
+                                        Tìm hiểu thêm
+                                    </span> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Container -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="grid__column-12">
+            <div class="grid__column-4-padding-5 footer__list">
+                <div class="footer__list-heading">
+                    Giới thiệu
+                </div>
+                <div class="footer__list-items">
+                    <ul id="footer__list-items">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Phương thức hoạt động của Airbnb
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Trang tin tức
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Nhà đầu tư
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Airbnb Plus
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Airbnb Luxe
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                HotelTonight
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Airbnb for Work
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Nhờ có Host, mọi điều đều có thể
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Cơ hội nghề nghiệp
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Thư của nhà sáng lập
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid__column-4-padding-5 footer__list">
+                <div class="footer__list-heading">
+                    Cộng đồng
+                </div>
+                <div class="footer__list-items">
+                    <ul id="footer__list-items">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Sự đa dạng và Cảm giác thân thuộc
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Tiện nghi phù hợp cho người khuyết tật
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Đối tác liên kết Airbnb
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Chỗ ở cho tuyến đầu
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Lượt giới thiệu của khách
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Airbnb.org
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid__column-4-padding-5 footer__list">
+                <div class="footer__list-heading">
+                    Đón tiếp khách
+                </div>
+                <div class="footer__list-items">
+                    <ul id="footer__list-items">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Cho thuê nhà
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Tổ chức Trải nghiệm trực tuyến
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Tổ chức trải nghiệm
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Đón tiếp khách có trách nhiệm
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Trung tâm tài nguyên
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Trung tâm cộng đồng
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid__column-4-padding-5 footer__list">
+                <div class="footer__list-heading">
+                    Hỗ trợ
+                </div>
+                <div class="footer__list-items">
+                    <ul id="footer__list-items">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Biện pháp ứng phó với đại dịch COVID-19 của chúng tôi
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Trung tâm trợ giúp
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Các tùy chọn hủy
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Hỗ trợ khu dân cư
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__list-item-link">
+                                Tin cậy và an toàn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid__column-12">
+            <div class="footer__sub-footer">
+                <div class="footer__copyright">
+                    <span class="footer__copyright-item">
+                        © 2021 Airbnb, Inc.
+                    </span> 
+                    <span class="footer__copyright-item">
+                        <a href="#" class="footer__copyright-item-link">Quyền riêng tư</a>
+                    </span>
+                    <span class="footer__copyright-item">
+                        <a href="#" class="footer__copyright-item-link">Điều khoản</a>
+                    </span>
+                    <span class="footer__copyright-item">
+                        <a href="#" class="footer__copyright-item-link">Sơ đồ trang web</a>
+                    </span>
+                </div>
+
+                <div class="footer__language-social">
+                    <div class="footer__language">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style="display:block;height:16px;width:16px;fill:currentColor" aria-hidden="true" role="presentation" focusable="false"><path d="m8.002.25a7.77 7.77 0 0 1 7.748 7.776 7.75 7.75 0 0 1 -7.521 7.72l-.246.004a7.75 7.75 0 0 1 -7.73-7.513l-.003-.245a7.75 7.75 0 0 1 7.752-7.742zm1.949 8.5h-3.903c.155 2.897 1.176 5.343 1.886 5.493l.068.007c.68-.002 1.72-2.365 1.932-5.23zm4.255 0h-2.752c-.091 1.96-.53 3.783-1.188 5.076a6.257 6.257 0 0 0 3.905-4.829zm-9.661 0h-2.75a6.257 6.257 0 0 0 3.934 5.075c-.615-1.208-1.036-2.875-1.162-4.686l-.022-.39zm1.188-6.576-.115.046a6.257 6.257 0 0 0 -3.823 5.03h2.75c.085-1.83.471-3.54 1.059-4.81zm2.262-.424c-.702.002-1.784 2.512-1.947 5.5h3.904c-.156-2.903-1.178-5.343-1.892-5.494l-.065-.007zm2.28.432.023.05c.643 1.288 1.069 3.084 1.157 5.018h2.748a6.275 6.275 0 0 0 -3.929-5.068z"></path></svg>
+                        <a href="#" class="footer__language-social-link">Tiếng Việt (VN)</a>
+                    </div>
+                    <div class="footer__currency">
+                        <span class="#" id="footer__currency">$</span>
+                        <a href="#" class="footer__currency-name">USD</a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <svg viewBox="0 0 32 32" role="img" aria-hidden="false" aria-label="Chuyển tới Facebook" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78" fill-rule="evenodd"></path></svg>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <svg viewBox="0 0 32 32" role="img" aria-hidden="false" aria-label="Chuyển tới Twitter" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16" fill-rule="evenodd"></path></svg>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <svg viewBox="0 0 24 24" role="img" aria-hidden="false" aria-label="Chuyển tới Instagram" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z" fill-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Footer -->
+</body>
+</html>

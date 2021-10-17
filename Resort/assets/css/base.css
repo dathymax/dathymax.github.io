@@ -1,0 +1,93 @@
+:root {
+    --white-color: #fff;
+    --color-black: #222222;
+    --color-gray-lighter: #A3A3A3;
+    --color-gray-darker: #717171;
+}
+
+/* Responsive */
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+.grid__column-3 {
+    padding: 9px 9px;
+    width: 25%;
+    display: flex;
+}
+
+.grid__column-3-no-flex {
+    padding: 9px 9px;
+    width: 25%;
+}
+
+.grid__column-4 {
+    width: 33.3334%;
+}
+
+.grid__column-4-flex {
+    display: flex;
+    width: 33.3334%;
+}
+
+.grid__column-4-padding-5 {
+    width: 33.3334%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.grid__column-6 {
+    width: 50%;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+}
+
+.grid__column-12 {
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+    width: 100%;
+}
+
+.grid__column-12-padding-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    width: 100%;
+}
+
+.grid__column-12-padding-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.grid__column-12-padding-top {
+    padding-top: 12px;
+    display: flex;
+    width: 100%;
+}

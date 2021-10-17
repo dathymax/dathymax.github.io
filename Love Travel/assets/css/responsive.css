@@ -1,0 +1,510 @@
+/* Iphone 5/SE - X */
+@media (min-width: 238px) and (max-width: 413px) {
+    .header {
+        min-height: 1050px;
+    }
+
+    .header__search {
+        padding: 250px 0 200px;
+    }
+
+    .search__masonry-item-link {
+        flex-direction: row;
+    }
+
+    .search__masonry-item-link span {
+        margin-left: 10px;
+    }
+
+    .search__masonry-item-link .space-10 {
+        display: none;
+    }
+
+    .destinations {
+        justify-content: center;
+    }
+
+    .header__search h5 {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+
+    .destinations__heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .destinations__heading h1 {
+        padding: 0 20px;
+    }
+
+    .destinations .space-20 {
+        display: block;
+    }
+
+    .destinations .space-25 {
+        display: none;
+    }
+
+    .next-holiday__container h6 {
+        font-size: 1.5rem;
+    }
+
+    .next-holiday__container .col h6 {
+        font-size: 1.5rem;
+    }
+
+    .view-all-packages--link {
+        font-size: 0.5rem;
+        padding: 10px 10px;
+    }
+
+    .best-beaches__container {
+        margin: 0;
+    }
+
+    .best-beaches__slider {
+        padding: 15px 30px;
+        height: 300px;
+    }
+
+    .best-beaches__count-down {
+        width: 81.5%;
+        height: 80px;
+        left: 9.25%;
+        bottom: -10px;
+    }
+
+    .count-down__time::after {
+        top: 15px;
+    }
+
+    .count-down__time p {
+        margin-top: 25px;
+        font-size: 1rem;
+    }
+
+    .count-down__time span {
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+    }
+
+    .tour-details {
+        flex-wrap: wrap;
+    }
+
+    .tour-details__item {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .footer__heading {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footer__input {
+        flex-wrap: wrap;
+    }
+
+    .footer__heading h2 {
+        font-size: 1.5rem;
+    }
+    
+    .footer__input input {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .footer__input a {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .footer {
+        height: 1500px;
+    }
+
+    .footer__container {
+        height: 1050px;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+
+    .footer__container--content {
+        padding: 0;
+    }
+
+    .footer-categories__container {
+        margin: 0;
+    }
+
+    .footer-categories__item {
+        padding-right: 10px;
+    }
+
+    .footer-categories__item img {
+        display: none;
+    }
+
+    .footer__copy-right {
+        height: 80px;
+    }
+
+    .copy-right__right,  .copyright__left {
+        float: none;
+        text-align: center;
+        padding: 14px;
+        font-size: 0.5rem;
+    }
+}
+
+/* Iphone 6,7,8 Plus - S Max */
+@media (min-width: 414px) and (max-width: 739px) {
+    .header {
+        min-height: 950px;
+    }
+
+    .header__search {
+        padding: 250px 0 200px;
+    }
+
+    .search__masonry-item-link {
+        flex-direction: row;
+    }
+
+    .search__masonry-item-link span {
+        margin-left: 10px;
+    }
+
+    .search__masonry-item-link .space-10 {
+        display: none;
+    }
+
+    .destinations {
+        justify-content: center;
+    }   
+
+    .destinations .space-20 {
+        display: block;
+    }
+
+    .destinations .space-25 {
+        display: none;
+    }
+
+    .best-beaches__container {
+        margin: 0 0 30px 0;
+        align-items: center;
+    }
+    
+    .best-beaches__slider {
+        padding: 15px 30px;
+        height: 300px;
+    }
+
+    .best-beaches__count-down {
+        width: 81.5%;
+        height: 80px;
+        left: 9.25%;
+        bottom: -10px;
+    }
+
+    .count-down__time::after {
+        top: 15px;
+    }
+
+    .count-down__time p {
+        margin-top: 25px;
+        font-size: 1rem;
+    }
+
+    .count-down__time span {
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+    }
+
+    .tour-details {
+        flex-wrap: wrap;
+    }
+
+    .tour-details__item {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .footer__heading {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footer__input {
+        flex-wrap: wrap;
+    }
+    
+    .footer__input input {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .footer__input a {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .footer {
+        height: 1450px;
+    }
+
+    .footer__container {
+        height: 1000px;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+
+    .footer__container--content {
+        padding: 0;
+    }
+
+    .footer-categories__container {
+        margin: 0;
+    }
+
+    .footer-categories__item {
+        padding-right: 10px;
+    }
+
+    .footer-categories__item img {
+        display: none;
+    }
+
+    .footer__copy-right {
+        height: 80px;
+    }
+
+    .copy-right__right,  .copyright__left {
+        float: none;
+        text-align: center;
+        padding: 14px;
+        font-size: 0.5rem;
+    }
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header {
+        min-height: 950px;
+    }
+
+    .header__search {
+        padding: 250px 0 200px;
+    }
+
+    .search__masonry-item-link {
+        flex-direction: row;
+    }
+
+    .search__masonry-item-link span {
+        margin-left: 10px;
+    }
+
+    .search__masonry-item-link .space-10 {
+        display: none;
+    }
+    
+    .destinations {
+        justify-content: center;
+    }
+
+    .destinations .space-20 {
+        display: block;
+    }
+
+    .destinations .space-25 {
+        display: none;
+    } 
+
+    .best-beaches__details {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .best-beaches__container {
+        margin-bottom: 20px;
+    }
+    
+    .best-beaches__slider {
+        height: 400px;
+    }
+
+    .best-beaches__count-down {
+        width: 100%;
+        height: 90px;
+        left: 0;
+        bottom: 0px;
+    }
+
+    .count-down__time::after {
+        top: 15px;
+    }
+
+    .count-down__time p {
+        margin-top: 15px;
+    }
+
+    .tour-details {
+        flex-wrap: wrap;
+    }
+
+    .tour-details__item {
+        margin-top: 20px;
+    }
+
+    .footer__heading {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footer__input {
+        flex-wrap: wrap;
+    }
+    
+    .footer__input input {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .footer__input a {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .footer {
+        height: 1200px;
+    }
+
+    .footer__container {
+        height: 700px;
+        flex-wrap: nowrap;
+    }
+
+    .footer-categories__container {
+        margin-left: 20px;
+    }
+
+    .footer__copy-right {
+        height: 80px;
+    }
+
+    .copy-right__right,  .copyright__left {
+        float: none;
+        text-align: center;
+        padding: 13px;
+    }
+}
+
+/* Tablet Pro - PC low resolution */
+@media (max-width: 1205px) {
+    .buy-now__big {
+        display: none;
+    }
+
+    .buy-now__small {
+        display: none;
+    }
+    
+    .nav {
+        justify-content: center;
+        background-color: var(--text-color-black);
+        height: 150px;
+        padding: 10px 50px;
+    }
+
+    .nav__logo {        
+        justify-content: center;
+    }
+
+    .nav__mobile-menu {
+        width: 270px;
+    }
+
+    .nav__mobile-menu-btn {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .small__menu {
+        display: none;
+    }
+
+    .nav__items {
+        display: none;
+    }
+
+    .header__search h1 {
+        font-size: 2.7rem;
+        color: var(--white-color);
+        font-weight: 800;
+        line-height: 3rem;
+    }    
+
+    .search__masonry-items {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    .search__masonry-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .next-holiday__container {
+        height: 321px;
+    }
+
+    .next-holiday__container h6 {
+        font-size: 2.5rem;
+        padding: 0 20px;
+    }
+
+    .packages__item--price {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .header {
+        min-height: 800px;
+    }
+
+    .header__search {
+        padding: 300px 0 200px;
+    }
+    
+    .next-holiday__container {
+        height: 321px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .next-holiday__container .l-2 {
+        display: none;
+    }
+
+    .next-holiday__container .row {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .best-beaches__count-down {
+        left: 80px;
+    }
+}
+
+
+

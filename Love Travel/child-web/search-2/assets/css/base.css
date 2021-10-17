@@ -1,0 +1,193 @@
+:root {
+    --text-color-gray: #9a9a9a;
+    --text-color-black: #555555;
+    --white-color: #fff;
+    
+    --bg-yellow: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+    --bg-pink: linear-gradient(to right, #f76570 0%, #f78d65 100%);;
+    --bg-violet: linear-gradient(to right, #ba71da 0%, #da717b 100%);;
+    --background-color-header: rgba(0,0,0,0.12);
+    --bg-color-masonry-item: rgba(0,0,0,0.21);
+    --background-color: #ffffff;
+
+    --yellow-color: #ffd205;
+    --light-red-color: #f76570;
+    --orange-color: #f3a46b;
+    --violet-color: #ba71da;
+    --green-color: #1bbc9b;
+    --text-color-darker: #555555;
+    --text-color-lighter: #9a9a9a;
+    --border-color: #f1f1f1;
+    --gray-color: #a3a3a3;
+    --blue-color: #14b9d5;
+    --brown-color: #f3a46b;
+
+    --strl-color-lighter: #f9f9f9;
+    --strl-color-darker: #e4e4e4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content__item--link {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: var(--white-color);
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+/* Space */
+.space-10 {
+    height: 10px;
+    width: 100%;
+}
+
+.space-15 {
+    height: 15px;
+    width: 100%;
+}
+
+.space-20 {
+    height: 20px;
+    width: 100%;
+}
+
+.space-25 {
+    height: 25px;
+    width: 100%;
+}
+
+.space-30 {
+    height: 30px;
+    width: 100%;
+}
+
+.space-35 {
+    height: 35px;
+    width: 100%;
+}
+
+.space-40 {
+    height: 40px;
+    width: 100%;
+}
+
+.space-45 {
+    height: 45px;
+    width: 100%;
+}
+
+.space-50 {
+    height: 50px;
+    width: 100%;
+}
+
+.space-55 {
+    height: 55px;
+    width: 100%;
+}
+
+.space-60 {
+    height: 60px;
+    width: 100%;
+}
+
+.space-65 {
+    height: 65px;
+    width: 100%;
+}
+
+.space-80 {
+    height: 80px;
+    width: 100%;
+}
+
+/* Color */
+.color-orange {
+    color: var(--orange-color);
+}
+
+.color-green {
+    color: var(--green-color);
+}
+
+.color-blue {
+    color: var(--blue-color);
+}
+
+.btn__yellow {
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+}
+
+.btn__light-red {
+    background-color: var(--light-red-color);
+    color: var(--white-color);
+}
+
+.btn__violet {
+    background-color: var(--violet-color);
+    color: var(--white-color);
+}
+
+.btn__blue {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.btn__brown {
+    background-color: var(--brown-color);
+    color: var(--white-color);
+}
+
+.btn__green {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.bg__yellow {
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.bg__light-red {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.bg__violet {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.bg__blue {
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+}
+
+.bg__brown {
+    background: linear-gradient(to right, #f3a46b 0%, #f3c96b 100%)
+}
+
+.bg__green {
+    background: linear-gradient(to right, #1bbc9b 0%, #1bbc63 100%);
+}
+
+/* Straight line*/
+.strl__height-2 {
+    height: 2px;
+    width: 100%;
+    background-color: var(--strl-color-lighter);
+}
+
+.strl__height-4 {
+    height: 4px;
+    width: 100%;
+    background-color: var(--strl-color-darker);
+}

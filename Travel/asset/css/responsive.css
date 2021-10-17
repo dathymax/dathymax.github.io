@@ -1,0 +1,31 @@
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .nav {
+        display: none;
+    }
+
+    .nav__moble-menu {
+        display: block;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media screen and (min-width: 46.1875em) and (max-width: 63.9375em) {
+    .nav {
+        background-color: var(--text-color-darker);
+        align-items: center;
+    }
+    
+    .nav__menu {
+        display: none;
+        align-items: center;
+    }
+
+    .nav__moble-menu {
+        display: block;
+    }
+
+    .nav__logo {
+        align-items: center;
+    }
+}
